@@ -11,4 +11,4 @@
 - primitive types nedir?
 - wrapper types nedir?
 - camelCase yazımı nedir?
-- PascalCase yazım nedi
+- PascalCase yazım nedir?
