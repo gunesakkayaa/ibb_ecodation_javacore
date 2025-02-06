@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="project default dosyası" />
+    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="project default dosyası">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +52,7 @@
     "Application._01_JavaTypes.executor": "Run",
     "Application._02_JavaDataTypes.executor": "Run",
     "Application._02_Variables.executor": "Run",
+    "Maven.ibb_ecodation_javacore [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -69,7 +73,7 @@
       <recent name="com.gunesakkaya._1_part_javatypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application._02_Variables">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gunesakkaya.Main" />
       <module name="ibb_ecodation_javacore" />
@@ -111,8 +115,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application._02_Variables" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application._01_JavaPsvm" />
       </list>
     </recent_temporary>
@@ -137,6 +141,7 @@
       <workItem from="1738688537497" duration="449000" />
       <workItem from="1738688996174" duration="3484000" />
       <workItem from="1738852562899" duration="5352000" />
+      <workItem from="1738859055465" duration="1498000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -202,7 +207,31 @@
       <option name="project" value="LOCAL" />
       <updated>1738858898804</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="project default dosyası">
+      <option name="closed" value="true" />
+      <created>1738859093606</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738859093606</updated>
+    </task>
+    <task id="LOCAL-00010" summary="project default dosyası">
+      <option name="closed" value="true" />
+      <created>1738859104149</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738859104149</updated>
+    </task>
+    <task id="LOCAL-00011" summary="project default dosyası">
+      <option name="closed" value="true" />
+      <created>1738859140656</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738859140656</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

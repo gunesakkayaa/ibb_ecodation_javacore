@@ -1,43 +1,47 @@
 package com.gunesakkaya._1_part_javatypes;
 
+import java.sql.SQLOutput;
+
 public class _02_Variables {
     public static void main(String[] args) {
+        // Veri değişken isimlerini yazarken;
+        // veri isimlendirmeleri;
+        // 1-) isim, veya sıfat, zamir kullanmamız lazım.
+        int schoolNumber = 23;
+        System.out.println(schoolNumber);
 
-        // Primitive Types: 8 tanedir. null değer alamazsınız.
+        schoolNumber = 44;
+        System.out.println(schoolNumber);
+
+        //2-) _ veya $ ile başlayabilirsiniz
+        int _schoolNumber = 55;
+        System.out.println(_schoolNumber);
+
+        //2-) _ veya $ ile başlayabilirsiniz
+        int $schoolNumber = 99;
+        System.out.println($schoolNumber);
+
+        // 3-) sayı ile bitebilir.
+        int schoolNumber123 = 105;
+        System.out.println(schoolNumber123);
+
         /*
-        veri isimlendirmeleri;
-        1-) isim, veya sıfat, zamir kullanmamız lazım
-        2-) _ veya $ ile başlayabilirsiniz
-        3-) sayı ile bitebilir
-        4-) Sayı ile başlanmaz
-        5-) _ veya $ dışında özel simgelerle başlanmaz
+            4-) Sayı ile başlanmaz
+            5-) _veya$ dışında özel simgelerle başlanmaz
+            6-) değişken isimlerini camelCase kuralına göre yazılır
          */
-        // tam sayılar (4)
-        byte b1=127;
-        System.out.println("byte: "+b1);
+        // yazamazsınız
+        //int schoolNumber=11; // aynı isimde yazamazsınız
+        //int 44schoolNumber=11; // sayıyla başlayamazsınız.
+        //int ~schoolNumber=11;   // özel simgeyle başlayamazsınız.
+        //int ``schoolNumber=11;   // özel simgeyle başlayamazsınız.
+        //System.out.println(school-number);
+        int school_number=66; // değişkenlerde boşluk kullanılmaz
 
-        short s1=32767;
-        System.out.println("short: "+s1);
 
-        int i1=2147483647;
-        System.out.println("int: "+i1);
+        final int MAX_STUDENTS=100;
+        System.out.println(MAX_STUDENTS);
 
-        long l1=9223372036854775807L;
-        System.out.println("long: "+l1);
 
-        // virgüllü (floating point)
-        float f2=3.14f;
-        System.out.println("float: "+f2);
-
-        double d2=3.14;
-        System.out.println("double: "+d2);
-
-        // boolean
-        boolean b3=true;
-        System.out.println("boolean: "+b3);
-
-        // char
-        char c4= '\u4125';
-        System.out.println("char: "+c4);
     }
 }
