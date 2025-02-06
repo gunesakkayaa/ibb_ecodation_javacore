@@ -10,3 +10,5 @@
 - Data types nedir?
 - primitive types nedir?
 - wrapper types nedir?
+- camelCase yazımı nedir?
+- PascalCase yazım nedi

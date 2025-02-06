@@ -1,0 +1,4 @@
+single comment : Ctrl+/
+Multiple Comment : Shift+Ctrl+/
+Beautify : Ctrl+Shift+L
+public stativ void main: psvm+tab
