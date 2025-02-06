@@ -1,7 +1,5 @@
 package com.gunesakkaya._1_part_javatypes;
 
-import java.sql.SQLOutput;
-
 public class _02_Variables {
 
     public static void main(String[] args) {
