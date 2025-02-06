@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="Java Primitive Types class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_03_JavaPrimitiveTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_JavaPrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" afterDir="false" />
-    </list>
+    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="project default dosyası" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +136,7 @@
       <workItem from="1738686230118" duration="1183000" />
       <workItem from="1738688537497" duration="449000" />
       <workItem from="1738688996174" duration="3484000" />
-      <workItem from="1738852562899" duration="5119000" />
+      <workItem from="1738852562899" duration="5352000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -189,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738858105666</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="NEWS">
+      <option name="closed" value="true" />
+      <created>1738858861506</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858861506</updated>
+    </task>
+    <task id="LOCAL-00008" summary="project default dosyası">
+      <option name="closed" value="true" />
+      <created>1738858898804</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858898804</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +226,9 @@
     <MESSAGE value="news" />
     <MESSAGE value="Java Primitive Types file" />
     <MESSAGE value="Java Primitive Types class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Java Primitive Types class" />
+    <MESSAGE value="NEWS" />
+    <MESSAGE value="project default dosyası" />
+    <option name="LAST_COMMIT_MESSAGE" value="project default dosyası" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
