@@ -1,0 +1,12 @@
+- Maven nedir?
+- pom.xml nedir?
+- JDK nedir?
+- JRE nedir?
+- Compiler nedir?
+- JVM nedir?
+- Interpreter nedir?
+- Java nedir?
+- Java özellikleri nelerdir?
+- Data types nedir?
+- primitive types nedir?
+- wrapper types nedir?
