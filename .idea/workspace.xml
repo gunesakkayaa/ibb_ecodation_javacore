@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="news">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_JavaDataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
+    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="Java Primitive Types class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_03_JavaPrimitiveTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_JavaPrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +51,7 @@
     "Application.Main.executor": "Run",
     "Application._01_JavaTypes.executor": "Run",
     "Application._02_JavaDataTypes.executor": "Run",
+    "Application._02_Variables.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
@@ -67,7 +67,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._02_JavaDataTypes">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gunesakkaya._1_part_javatypes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gunesakkaya.Main" />
       <module name="ibb_ecodation_javacore" />
@@ -81,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_01_JavaTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._01_JavaTypes" />
+    <configuration name="_01_JavaPsvm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._01_JavaPsvm" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
@@ -94,8 +99,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_02_JavaDataTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._02_JavaDataTypes" />
+    <configuration name="_02_Variables" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._02_Variables" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
@@ -109,9 +114,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application._02_JavaDataTypes" />
-        <item itemvalue="Application._01_JavaTypes" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application._02_Variables" />
+        <item itemvalue="Application._01_JavaPsvm" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +139,7 @@
       <workItem from="1738686230118" duration="1183000" />
       <workItem from="1738688537497" duration="449000" />
       <workItem from="1738688996174" duration="3484000" />
-      <workItem from="1738852562899" duration="3753000" />
+      <workItem from="1738852562899" duration="5119000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -168,18 +173,47 @@
       <option name="project" value="LOCAL" />
       <updated>1738856222834</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Java Primitive Types class">
+      <option name="closed" value="true" />
+      <created>1738857942277</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738857942277</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Java Primitive Types class">
+      <option name="closed" value="true" />
+      <created>1738858105666</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738858105666</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java core init" />
     <MESSAGE value="Pom + ReadMe+ Java Types" />
     <MESSAGE value="shorcuts + readme" />
     <MESSAGE value="news" />
-    <option name="LAST_COMMIT_MESSAGE" value="news" />
+    <MESSAGE value="Java Primitive Types file" />
+    <MESSAGE value="Java Primitive Types class" />
+    <option name="LAST_COMMIT_MESSAGE" value="Java Primitive Types class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,17 @@
 package com.gunesakkaya._1_part_javatypes;
 
-public class _02_JavaPrimitiveTypes {
+public class _02_Variables {
     public static void main(String[] args) {
 
         // Primitive Types: 8 tanedir. null değer alamazsınız.
-
+        /*
+        veri isimlendirmeleri;
+        1-) isim, veya sıfat, zamir kullanmamız lazım
+        2-) _ veya $ ile başlayabilirsiniz
+        3-) sayı ile bitebilir
+        4-) Sayı ile başlanmaz
+        5-) _ veya $ dışında özel simgelerle başlanmaz
+         */
         // tam sayılar (4)
         byte b1=127;
         System.out.println("byte: "+b1);
