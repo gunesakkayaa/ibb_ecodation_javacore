@@ -3,10 +3,14 @@ package com.gunesakkaya._1_part_javatypes;
 import java.sql.SQLOutput;
 
 public class _02_Variables {
+
     public static void main(String[] args) {
         // Veri değişken isimlerini yazarken;
         // veri isimlendirmeleri;
         // 1-) isim, veya sıfat, zamir kullanmamız lazım.
+        // Anlamlı ve açıklayıcı isimler seçiniz
+        // int studentCounter=11;
+        // float totalSalary=14.5355f;
         int schoolNumber = 23;
         System.out.println(schoolNumber);
 
@@ -35,13 +39,16 @@ public class _02_Variables {
         //int 44schoolNumber=11; // sayıyla başlayamazsınız.
         //int ~schoolNumber=11;   // özel simgeyle başlayamazsınız.
         //int ``schoolNumber=11;   // özel simgeyle başlayamazsınız.
+        //int   school-number=99;    // kebab-case yazamazsınız.
         //System.out.println(school-number);
-        int school_number=66; // değişkenlerde boşluk kullanılmaz
+        //int school number=66;  // değişkenlerde boşluk kullanılamaz
 
+        // yazmayalım
+        float totalSalary = 14.5355f;
+        System.out.println(totalSalary);
 
-        final int MAX_STUDENTS=100;
+        // SABIT
+        final int MAX_STUDENTS = 100;
         System.out.println(MAX_STUDENTS);
-
-
     }
 }
