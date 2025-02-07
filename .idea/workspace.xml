@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="operators">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_04_JavaWrapperTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_06_Math.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_07_EscapeCharacter.java" afterDir="false" />
+    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="full update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homework.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Homework.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_01_JavaPsvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_01_JavaPsvm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_04_operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_05_operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_07_EscapeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_07_EscapeCharacter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_08_Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_08_Scanner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +55,7 @@
     "Application._02_Variables.executor": "Run",
     "Application._04_operators.executor": "Run",
     "Application._06_Math.executor": "Run",
+    "Application._07_EscapeCharacter.executor": "Run",
     "Maven.ibb_ecodation_javacore [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -81,26 +77,13 @@
       <recent name="com.gunesakkaya._1_part_javatypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application._06_Math">
+  <component name="RunManager" selected="Application._07_EscapeCharacter">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gunesakkaya.Main" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gunesakkaya.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_01_JavaPsvm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._01_JavaPsvm" />
-      <module name="ibb_ecodation_javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_part_javatypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,13 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_07_EscapeCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_part_javatypes._07_EscapeCharacter" />
+      <module name="ibb_ecodation_javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gunesakkaya._1_part_javatypes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._07_EscapeCharacter" />
         <item itemvalue="Application._06_Math" />
         <item itemvalue="Application._05_operators" />
         <item itemvalue="Application._02_Variables" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application._01_JavaPsvm" />
       </list>
     </recent_temporary>
   </component>
@@ -177,7 +173,8 @@
       <workItem from="1738688537497" duration="449000" />
       <workItem from="1738688996174" duration="3484000" />
       <workItem from="1738852562899" duration="5352000" />
-      <workItem from="1738859055465" duration="5546000" />
+      <workItem from="1738859055465" duration="6003000" />
+      <workItem from="1738947751311" duration="767000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -291,7 +288,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738862660612</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="full update">
+      <option name="closed" value="true" />
+      <created>1738885372311</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738885372311</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +324,8 @@
     <MESSAGE value="project default dosyası" />
     <MESSAGE value="variables" />
     <MESSAGE value="operators" />
-    <option name="LAST_COMMIT_MESSAGE" value="operators" />
+    <MESSAGE value="full update" />
+    <option name="LAST_COMMIT_MESSAGE" value="full update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
