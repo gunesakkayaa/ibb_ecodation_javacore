@@ -1,4 +1,4 @@
-package com.gunesakkaya._1_part_javatypes;
+package com.gunesakkaya._1_week;
 
 public class _06_Math {
 

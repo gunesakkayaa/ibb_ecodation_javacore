@@ -1,4 +1,4 @@
-package com.gunesakkaya._1_part_javatypes;
+package com.gunesakkaya._1_week;
 // single comment
 /* Multiple */
 public class _01_JavaPsvm {
