@@ -1,21 +1,22 @@
-- Maven nedir?
-- pom.xml nedir?
-- JDK nedir?
-- JRE nedir?
-- Compiler nedir?
-- JVM nedir?
-- Interpreter nedir?
-- Java nedir?
-- Java özellikleri nelerdir?
-- Data types nedir?
-- primitive types nedir?
-- wrapper types nedir?
--camelCase yazım nedir ?
--PascalCase yazım nedir ?
--kebab-case yazım nedir ?
+- Maven Nedir ?
+- pom.xml nedir ?
+- JDK  nedir ?
+- JRE  nedir ?
+- Compiler  nedir ?
+- JVM  nedir ?
+- Interpreter nedir ?
+- Java nedir ?
+- Java Özellikleri nelerdir ?
+- Data types  nedir ?
+- primitive types  nedir ?
+- Wrapper types nedir ?
 
-- Aşağıdakiler arasındaki farkı öğren:
+camelCase yazım nedir ?
+PascalCase yazım nedir ?
+snace_case yazım nedir ?
+kebab-case yazım nedir ?
 
+arasındaki farkı öğren:
     int number1=10;
     number1++;
     System.out.println(number1);
@@ -24,5 +25,8 @@
     ++number2;
     System.out.println(number2);
 
-- Stack Memory - Heap Memory araştır
+Stack Memory - Heap Memory
+
+Escape Character
+Scanner Class bakmanızı
 
