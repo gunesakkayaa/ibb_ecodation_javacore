@@ -1,9 +1,9 @@
 # IBB Ecodation Java Core
-[GitHub]( https://github.com/gunesakkayaa/ibb_ecodation_javacore.git)
+[GitHub](https://github.com/hamitmizrak/ibb_ecodation_javacore.git)
 [JDK](https://www.oracle.com/tr/java/technologies/downloads/#jdk23-windows)
-[Intellij Idea Community](https://www.jetbrains.com/idea/download/?section=mac)
+[Intellij Idea Community](https://www.jetbrains.com/idea/download/?section=windows)
 [Git](https://git-scm.com/downloads)
-[Java ]
+[Java Tutorials](https://www.w3schools.com/java/default.asp)
 
 
 ## Git
@@ -21,8 +21,8 @@ git clone  https://github.com/hamitmizrak/ibb_ecodation_javacore.git
 ```sh 
 Class isimleri PascalCase göre yazılır
 Class isimleri: Fiil olarak kullanmayız (mak-mek)
-Class : Java 1 tane public class vardır (inner class haric)
-Class : Java static class yoktur (inner class haric)
+Class : Java 1 tane public class vardır (inner class hariç)
+Class : Java static class yoktur (inner class hariç)
 
 Paket isimleri: Küçük harflerle yazılır.
 Paket isimleri: fiil olarak kullanmayız (mak-mek)
@@ -39,7 +39,7 @@ Java case sensitive bir dildir. (Küçük büyük harfe duyarlı yüksek seviyed
 ```
 ---
 
-## Java Core (Common Rules)
+## Maven Nedir ?
 ```sh 
 
 ```
@@ -57,6 +57,10 @@ Maven, Java projelerini oluşturmak, yönetmek ve otomatikleştirmek için kulla
 
 ---
 
+## pom.xml Nedir ?
+```sh 
+
+```
 ### **2. `pom.xml` Nedir?**
 `pom.xml` (**Project Object Model**) dosyası, Maven projelerinin merkezi yapılandırma dosyasıdır. Projenin bağımlılıklarını, sürüm bilgilerini, eklentilerini ve yapılandırmalarını içerir.
 
@@ -86,6 +90,11 @@ Bu dosya:
 
 ---
 
+
+## JDK Nedir ?
+```sh 
+
+```
 ### **3. JDK (Java Development Kit) Nedir?**
 **JDK (Java Development Kit)**, Java ile uygulama geliştirmek için kullanılan geliştirme ortamıdır. İçerisinde:
 - **JRE (Java Runtime Environment)** (Çalışma zamanı ortamı)
@@ -97,6 +106,10 @@ Bu dosya:
 JDK olmadan Java kodu yazılamaz ve çalıştırılamaz.
 ---
 
+## JRE Nedir ?
+```sh 
+
+```
 ### **4. JRE (Java Runtime Environment) Nedir?**
 **JRE (Java Runtime Environment)**, Java uygulamalarını çalıştırmak için gereken ortamdır. İçerisinde:
 - **JVM (Java Virtual Machine)** bulunur.
@@ -106,6 +119,20 @@ JDK olmadan Java kodu yazılamaz ve çalıştırılamaz.
 Eğer sadece Java programlarını çalıştırmak istiyorsanız, JDK yerine sadece JRE yükleyebilirsiniz. Ancak, JRE **Java kodu yazmak veya derlemek için yeterli değildir**.
 ---
 
+### **5. JVM (Java Virtual Machine) Nedir?**
+**JVM (Java Virtual Machine)**, Java programlarını çalıştıran sanal bir makinedir. JVM sayesinde Java platform bağımsızdır çünkü Java kodu her işletim sisteminde çalışabilecek **bayt koduna** (`.class` dosyalarına) çevrilir.
+
+JVM’in Görevleri:
+- **Bayt kodunu çalıştırır.**
+- **Bellek yönetimini yapar (Garbage Collection).**
+- **Çoklu iş parçacığını (multithreading) destekler.**
+- **Platform bağımsızlığı sağlar.**
+---
+
+## Compiler Nedir ?
+```sh 
+
+```
 ### **5. Compiler (Derleyici) Nedir?**
 **Compiler (Derleyici)**, insan tarafından yazılan yüksek seviyeli programlama dillerini makine koduna veya bayt koduna dönüştüren bir programdır. Java’da derleyici `javac` olarak adlandırılır.
 
@@ -116,16 +143,11 @@ Eğer sadece Java programlarını çalıştırmak istiyorsanız, JDK yerine sade
 4. **JVM bayt kodunu çalıştırır.**
 ---
 
-### **6. JVM (Java Virtual Machine) Nedir?**
-**JVM (Java Virtual Machine)**, Java programlarını çalıştıran sanal bir makinedir. JVM sayesinde Java platform bağımsızdır çünkü Java kodu her işletim sisteminde çalışabilecek **bayt koduna** (`.class` dosyalarına) çevrilir.
 
-JVM’in Görevleri:
-- **Bayt kodunu çalıştırır.**
-- **Bellek yönetimini yapar (Garbage Collection).**
-- **Çoklu iş parçacığını (multithreading) destekler.**
-- **Platform bağımsızlığı sağlar.**
----
+## Intepreter Nedir ?
+```sh 
 
+```
 ### **7. Interpreter (Yorumlayıcı) Nedir?**
 **Interpreter (Yorumlayıcı),** programın satır satır çalıştırılmasını sağlayan bir programdır.
 Java’da **JVM içerisinde yer alan yorumlayıcı (interpreter)**, bayt kodlarını satır satır çalıştırır.
@@ -292,16 +314,14 @@ public class ComplexClass {
 **Özet:** Daha fazla kod satırı, büyük sınıflar, fazladan kütüphane kullanımı ve karmaşık yapıların kullanımı hem derleme süresini uzatır hem de `.class` dosyalarının boyutunu artırır.
 
 
-## Java Core (Data Types)
+## Java Common Rules
 ```sh 
 
 ```
 ---
 
 ### **Java Değişken İsimlendirme Kuralları ve En İyi Uygulamalar**
-
 Java'da değişken isimlendirme kuralları **sözdizimsel (syntax)** kurallar ve **en iyi uygulamalar (best practices)** olarak ikiye ayrılır. Sözdizim kurallarına uyulmazsa derleme hatası alınır, en iyi uygulamalara uyulmaması ise okunabilirliği ve bakımı zorlaştırır.
-
 ---
 
 ## **1. Java'da Değişken İsimlendirme Kuralları (Syntax Kuralları)**
@@ -456,7 +476,7 @@ public class NamingExample {
 Bu kurallara uymak, kodunuzu daha **anlaşılır, düzenli ve sürdürülebilir** hale getirecektir. 🚀
 
 
-## Java Core
+## Primitive Types
 ```sh 
 
 ```
@@ -640,7 +660,7 @@ int z = y.intValue(); // Wrapper -> Primitive (Unboxing)
 ---
 
 
-## Java Core
+## Primitive type - Wrapper Type
 ```sh 
 
 ```
@@ -804,8 +824,618 @@ Bu detaylı açıklamalar, primitive ve wrapper türleri arasındaki farkları n
 
 **Primitive türler Java'nın temelini oluşturur ve performans açısından büyük avantaj sağlar! 🚀**
 
+## Wrapper new kullanımı()
+```sh 
 
-## Java Core
+```
+---
+Eğer **wrapper sınıflarını** `new` anahtar kelimesiyle oluşturmak istiyorsak, her bir primitive türünün **wrapper sınıfını** kullanarak aşağıdaki gibi yazabiliriz:
+
+```java
+public class WrapperExample {
+    public static void main(String[] args) {
+        Byte wrapperTypeByte = new Byte((byte) 127);
+        wrapperTypeByte = null; // Wrapper sınıflar null alabilir
+        System.out.println(wrapperTypeByte);
+
+        Short wrapperTypeShort = new Short((short) 32767);
+        Integer wrapperTypeInt = new Integer(2147483647);
+        Long wrapperTypeLong = new Long(9223372036854775807L);
+
+        Float wrapperTypeFloat = new Float(14.23f);
+        Double wrapperTypeDouble = new Double(14.23);
+
+        Boolean wrapperTypeBoolean = new Boolean(true);
+        Character wrapperTypeChar = new Character('a');
+
+        System.out.println("Short: " + wrapperTypeShort);
+        System.out.println("Integer: " + wrapperTypeInt);
+        System.out.println("Long: " + wrapperTypeLong);
+        System.out.println("Float: " + wrapperTypeFloat);
+        System.out.println("Double: " + wrapperTypeDouble);
+        System.out.println("Boolean: " + wrapperTypeBoolean);
+        System.out.println("Character: " + wrapperTypeChar);
+    }
+}
+```
+
+### **Önemli Notlar**
+1. **Java 9 ve Sonrasında `new` Kullanımı Önerilmez**
+    - Java 9'dan itibaren `new Byte()`, `new Integer()` gibi kullanımlar **depreceated (kullanım dışı)** olarak işaretlenmiştir.
+    - Bunun yerine **doğrudan atama** yapılmalıdır:
+      ```java
+      Byte wrapperTypeByte = 127;  // Önerilen kullanım
+      ```
+    - **Çünkü:** Java **autoboxing** mekanizması sayesinde `new` kullanmadan da bu türleri otomatik olarak wrapper class'lara çevirebilir.
+
+2. **Performans ve Bellek Yönetimi**
+    - `new` kullanımı **gereksiz nesne oluşturduğu için heap belleği gereksiz yere doldurur**.
+    - Örneğin:
+      ```java
+      Integer a = 100;  // Autoboxing (Önerilen kullanım)
+      Integer b = new Integer(100); // Heap bellekte yeni nesne oluşturur
+      ```
+    - **`new Integer(100)` kullanırsanız heap’te yeni bir nesne oluşturulur ve gereksiz hafıza tüketilir.**
+
+### **Sonuç**
+- **Eğer eski sürümlerle çalışmıyorsanız** ve özel bir nedeniniz yoksa, `new` kullanmadan **autoboxing** yöntemini tercih etmelisiniz.
+- **Java 9+ ile çalışıyorsanız**, `new` kullanmaktan kaçının ve doğrudan atamaları kullanın. 🚀
+
+## Stack Memory(Primitive) Heap Memory Memory()
+```sh 
+
+```
+---
+### **Java'da Primitive Stack Hafıza ve Wrapper Heap Hafıza Arasındaki Farklar**
+
+Java'da **primitive veri tipleri** (**int, double, boolean, char, float, long, short, byte**) ve **wrapper sınıfları** (**Integer, Double, Boolean, Character, Float, Long, Short, Byte**) bellek yönetimi açısından farklı yerlerde saklanır. Bu iki veri tipi arasındaki en büyük fark, **stack ve heap bellek yönetimi** ile ilgilidir. Şimdi bu farkları **çok detaylı** şekilde inceleyelim.
+
+---
+
+## **1. Stack ve Heap Hafızasının Tanımı**
+Java bellek yönetiminde **iki temel bölge** vardır:
+- **Stack (Yığın Hafıza):** Küçük, hızlı ve yönetimi kolaydır. **Primitive veri tipleri burada saklanır.**
+- **Heap (Yığın Hafıza):** Daha büyük, daha yavaş ama esnek bir yapıya sahiptir. **Wrapper sınıfları (nesne olarak kullanılan veriler) burada saklanır.**
+
+---
+
+## **2. Stack ve Heap Hafızasının Karşılaştırılması**
+
+| **Özellik**        | **Stack (Yığın Hafıza)** | **Heap (Yığın Hafıza)** |
+|--------------------|-----------------------|-----------------------|
+| **Saklanan Veri Tipleri** | Primitive değişkenler (`int, double, char`) | Nesneler ve Wrapper sınıfları (`Integer, Double, Character`) |
+| **Bellek Yönetimi** | LIFO (Last In First Out – Son giren, ilk çıkar) | Garbage Collector tarafından yönetilir |
+| **Hız** | Çok hızlı | Görece daha yavaş |
+| **Erişim Süresi** | Stack değişkenlerine erişim **daha hızlıdır** | Heap değişkenlerine erişim **daha yavaştır** |
+| **Ömür** | Bir metodun çalışma süresi boyunca var olur | Program çalıştığı sürece var olabilir |
+| **Bellek Alanı** | Küçüktür | Daha büyüktür |
+| **Çoklu Thread Kullanımı** | Thread'e özeldir (Her thread'in kendi stack’i vardır) | Heap bellek **tüm thread’ler tarafından paylaşılır** |
+| **Otomatik Temizleme** | Otomatik temizlenir, Garbage Collector çalışmasına gerek yoktur | Garbage Collector tarafından yönetilir, bellek temizliği gerektiğinde yapılır |
+
+---
+
+## **3. Primitive ve Wrapper Arasındaki Bellek Kullanım Farkı**
+
+### **A) Primitive Veri Tipleri (Stack)**
+Primitive veri tipleri **hafızada doğrudan değer olarak saklanır**. Örneğin:
+
+```java
+int x = 10;
+```
+- `x` değişkeni **stack hafızada** saklanır.
+- Stack, değişkenleri hızlı bir şekilde yönetir ve **fonksiyon bittiğinde** otomatik olarak temizler.
+
+Stack'teki bellek organizasyonu şu şekildedir:
+
+```
+Stack Memory:
++----------------------+
+| int x = 10          |
++----------------------+
+```
+
+---
+
+### **B) Wrapper Sınıfları (Heap)**
+Eğer primitive yerine bir **wrapper class** (nesne) kullanırsak:
+
+```java
+Integer y = new Integer(10);
+```
+
+Bu durumda, bellek yapısı şu şekilde olur:
+- `y` değişkeni **stack içinde bir referans** olarak saklanır.
+- `new Integer(10)` ifadesiyle oluşturulan nesne **heap hafızada** saklanır.
+- Heap’te saklanan nesneye erişmek için stack’te bir referans (adres) tutulur.
+
+```
+Stack Memory:
++----------------------+
+| Integer y (ref: 0xA) |
++----------------------+
+
+Heap Memory:
++----------------------+
+| [Integer: 10] (0xA) |
++----------------------+
+```
+
+Yani, **primitive bir değişken doğrudan değeri içerirken**, wrapper class'lar **referansları saklar ve asıl veri heap içinde tutulur**.
+
+---
+
+## **4. Detaylı Örnek: Stack ve Heap Karşılaştırması**
+
+Şimdi stack ve heap farkını anlamak için aşağıdaki kodu inceleyelim:
+
+```java
+public class MemoryTest {
+    public static void main(String[] args) {
+        int a = 5;
+        Integer b = new Integer(5);
+        
+        modify(a, b);
+        
+        System.out.println("a: " + a);  // 5
+        System.out.println("b: " + b);  // 5
+    }
+    
+    public static void modify(int x, Integer y) {
+        x = 10;       // Stack içindeki x değişir
+        y = new Integer(10); // Yeni bir nesne oluşturulur (Heap)
+    }
+}
+```
+
+### **Kod Çalışma Mantığı**
+1. `int a = 5;`  → **Stack'te doğrudan 5 değeri saklanır.**
+2. `Integer b = new Integer(5);`  → **Heap’te yeni bir Integer nesnesi oluşturulur. Stack'te referansı tutulur.**
+3. `modify(a, b);` metoduna çağrılırken:
+    - `x` → yeni bir stack değişkeni olarak **5 değerini kopyalar** (pass by value).
+    - `y` → referans olarak **yeni bir Integer nesnesi alır**.
+4. `x = 10;` → **Stack içinde yeni bir değişken yaratılır ve değer değiştirilir.**
+5. `y = new Integer(10);` → **Heap’te yeni bir Integer nesnesi oluşturulur, ancak bu `modify` metodu içinde kalır ve main metodundaki `b` değişkenini etkilemez.**
+6. `main` metodu bittiğinde, `a` hâlâ `5`, `b` hâlâ `5` olarak kalır.
+
+Bu durum, **primitive’lerin değiştirilememesi (pass-by-value) ve wrapper nesnelerinin yeni bir nesne oluşturduğunda eski referanslarını kaybetmesi nedeniyle** oluşur.
+
+---
+
+## **5. Wrapper Sınıfları ve Otomatik Boxing / Unboxing**
+Java, primitive ve wrapper sınıfları arasında otomatik dönüşüm sağlar. Buna **Autoboxing ve Unboxing** denir.
+
+### **Autoboxing (Primitive → Wrapper)**
+```java
+int primitiveValue = 100;
+Integer wrapperValue = primitiveValue; // Autoboxing
+```
+- Burada **`primitiveValue`**, otomatik olarak `Integer` nesnesine dönüştürülür ve heap’te saklanır.
+
+### **Unboxing (Wrapper → Primitive)**
+```java
+Integer wrapperValue = 200;
+int primitiveValue = wrapperValue; // Unboxing
+```
+- `wrapperValue`, heap’ten alınıp stack’te saklanan `primitiveValue` değişkenine atanır.
+
+Bu dönüşümler bazı **performans kayıplarına** neden olabilir, çünkü primitive tiplerde heap erişimi olmadığı için daha hızlı işlem yapılır.
+
+---
+
+## **6. Ne Zaman Primitive, Ne Zaman Wrapper Kullanmalıyız?**
+| Kullanım Durumu | Primitive Kullan (Stack) | Wrapper Kullan (Heap) |
+|----------------|------------------------|----------------------|
+| **Hafıza Verimliliği** | ✅ | ❌ (Heap daha fazla bellek kullanır) |
+| **Performans (Hızlı Erişim)** | ✅ | ❌ (Heap erişimi daha yavaş) |
+| **Nesne Odaklı Programlama (OOP)** | ❌ | ✅ (Nesne özellikleri ile kullanılabilir) |
+| **Nullable Değerler (Null Atama)** | ❌ | ✅ (Primitive null olamaz, wrapper olabilir) |
+| **Collection (List, Set, Map)** | ❌ | ✅ (Primitive veri tipleri Collection ile kullanılamaz) |
+
+Eğer **hafıza ve hız önemliyse**, **primitive tipleri** kullanmalıyız.  
+Eğer **nesne tabanlı programlama, null değeri saklama veya koleksiyonlar (List, Set, Map) ile çalışma gerekiyorsa**, **wrapper sınıfları** kullanmalıyız.
+
+---
+
+## **Sonuç**
+- **Primitive değişkenler stack hafızada tutulur, doğrudan değeri içerir ve daha hızlıdır.**
+- **Wrapper sınıfları heap hafızada saklanır, referans üzerinden erişilir ve daha fazla bellek kullanır.**
+- **Otomatik Boxing/Unboxing sayesinde dönüşümler mümkündür, ancak performansa dikkat edilmelidir.**
+
+Bu bilgiler doğrultusunda, projenin gereksinimlerine göre en uygun bellek kullanım stratejisini belirlemek gerekir. 🚀
+
+## Wrapper new kullanımı
+```sh 
+Short wrapperTypeShort = new Short((short) 32767); 
+bununla Short wrapperTypeShort 2=32767 arasındaki far nedir ?
+```
+---
+
+Java'da aşağıdaki iki satır arasındaki farkı inceleyelim:
+
+```java
+Short wrapperTypeShort1 = new Short((short) 32767); // 1. Yöntem (Explicit Object Creation - new kullanımı)
+Short wrapperTypeShort2 = 32767; // 2. Yöntem (Autoboxing)
+```
+
+Bu iki yaklaşımın arasındaki temel farklar şunlardır:
+
+---
+
+## **1. `new Short((short) 32767)` Kullanımı (Heap Bellekte Yeni Nesne Oluşturur)**
+```java
+Short wrapperTypeShort1 = new Short((short) 32767);
+```
+- `new` anahtar kelimesi kullanıldığı için **her çağrıldığında yeni bir nesne oluşturulur**.
+- **Heap bellekte ayrı bir nesne** yaratılır.
+- **Garbage Collector (GC)** tarafından temizlenmesi gerekir.
+- **Bellek tüketimi ve performans açısından dezavantajlıdır.**
+- **`==` operatörü ile karşılaştırıldığında farklı nesneler olduğu için false dönebilir.**
+- Java 9 ve sonraki sürümlerde bu yöntem **depreceated (kullanım dışı)** hale gelmiştir.
+
+---
+
+## **2. `Short wrapperTypeShort2 = 32767;` Kullanımı (Autoboxing - Cached Object Kullanımı)**
+```java
+Short wrapperTypeShort2 = 32767;
+```
+- **Autoboxing** sayesinde primitive `short` değeri otomatik olarak `Short` nesnesine dönüştürülür.
+- **Java'nın Integer ve Short için cache mekanizmasını kullanır.**
+- Küçük sayı aralıklarında (`-128` ile `127` arasında) **önbellekten (cache) alınan nesneleri kullanabilir.**
+- **Daha performanslıdır**, çünkü her seferinde yeni bir nesne oluşturmaz.
+
+---
+
+## **Farklılıkların Kanıtı: Karşılaştırma Testi**
+Aşağıdaki kodu çalıştırarak farkı gözlemleyebiliriz:
+
+```java
+public class ShortComparison {
+    public static void main(String[] args) {
+        Short wrapperTypeShort1 = new Short((short) 127);
+        Short wrapperTypeShort2 = 127; // Autoboxing
+        
+        Short wrapperTypeShort3 = new Short((short) 127);
+        Short wrapperTypeShort4 = 127; // Autoboxing
+        
+        System.out.println(wrapperTypeShort1 == wrapperTypeShort3); // false (Heap'te farklı nesneler)
+        System.out.println(wrapperTypeShort2 == wrapperTypeShort4); // true (Cache mekanizması sayesinde aynı nesne)
+        
+        Short wrapperTypeShort5 = 32767;
+        Short wrapperTypeShort6 = 32767;
+
+        System.out.println(wrapperTypeShort5 == wrapperTypeShort6); // false (Çünkü cache dışında)
+    }
+}
+```
+
+---
+
+## **Sonuçlar**
+1. **Eğer `new` kullanırsanız**, heap bellekte **yeni bir nesne** oluşur ve `==` operatörü farklı nesneler döndürdüğü için `false` olur.
+2. **Eğer `Short wrapperTypeShort2 = 32767;` şeklinde yazarsanız**, Java **autoboxing kullanır**.
+3. **Java `-128` ile `127` arasındaki değerleri cache olarak tuttuğu için** bu aralıkta `==` karşılaştırması true dönebilir. Ancak `32767` gibi büyük değerler cache dışında olduğu için farklı nesneler oluşturulur.
+
+---
+
+## **Hangi Kullanımı Tercih Etmeliyiz?**
+✔ **Performans açısından `Short wrapperTypeShort = 32767;` (Autoboxing) tercih edilmelidir.**  
+❌ **`new Short((short) 32767)` kullanımı gereksiz bellek tüketimine neden olur ve önerilmez.**
+
+Bu yüzden **`new` ile nesne oluşturmaktan kaçınılmalı ve autoboxing kullanımı tercih edilmelidir.** 🚀
+
+## Java Life-Cycles
+```sh 
+
+```
+---
+### **Java'da Compiler mı Önce, Interpreter mı?**
+Java programlarının çalışma süreci **hem compiler (derleyici) hem de interpreter (yorumlayıcı)** içerir, ancak **önce compiler çalışır, sonra interpreter devreye girer**.
+
+1. **Compiler (Derleyici) İlk Çalışır:**
+    - Java kaynak kodu (`.java` dosyaları) **Javac (Java Compiler)** tarafından **Bytecode**’a (`.class` dosyaları) dönüştürülür.
+    - Bytecode **işletim sistemine bağımsızdır**, yani her ortamda çalışabilir.
+
+2. **Interpreter (Yorumlayıcı) Sonra Çalışır:**
+    - **Java Virtual Machine (JVM)**, Bytecode’u alır ve **Just-In-Time (JIT) Compiler** ile çalıştırılabilir makine koduna dönüştürür.
+    - JVM, Bytecode'u **satır satır yorumlar ve çalıştırır**.
+
+### **Java Programının Life-Cycle (Yaşam Döngüsü)**
+Java'daki bir programın baştan sona yaşam döngüsünü adım adım açıklayalım:
+
+---
+
+## **1. Yazılım Aşaması (Source Code - `.java` Dosyası)**
+Geliştirici, **Java kaynak kodunu** (`.java` dosyalarını) yazar.  
+Örneğin:
+
+```java
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+```
+
+---
+
+## **2. Compilation (Derleme) Aşaması**
+Java **compiler** (`javac`), kaynak kodunu **Bytecode**’a çevirir.
+
+### **Bu aşamada şunlar olur:**
+- **Syntax kontrolü yapılır:** Derleyici (`javac`), kodun sözdizimi hatalarını kontrol eder.
+- **Optimizasyon yapılır:** Kod en verimli hale getirilir.
+- **Bytecode üretilir:** **Makineye bağımsız** `.class` dosyası oluşturulur.
+
+### **Kompilasyon (Derleme) Komutu:**
+```sh
+javac HelloWorld.java
+```
+
+Bu komut sonucunda, aşağıdaki dosya oluşur:
+
+```
+HelloWorld.class
+```
+
+Bu `.class` dosyası **Java Bytecode** içerir.
+
+---
+
+## **3. ClassLoader Aşaması**
+Java **ClassLoader**, `.class` dosyalarını JVM’ye yükler.
+
+- **Bootstrap ClassLoader:** Java’nın temel sınıflarını (`java.lang.*`) yükler.
+- **Extensions ClassLoader:** Ekstra kütüphaneleri (`lib/ext` dizinindekileri) yükler.
+- **Application ClassLoader:** Kullanıcının kendi yazdığı sınıfları yükler.
+
+---
+
+## **4. Bytecode Verification (Bytecode Doğrulama)**
+- **JVM, Bytecode’un güvenliğini kontrol eder.**
+- **Hatalı veya zararlı kodların çalışmasını önler.**
+- **Bellek aşımı veya yasadışı bellek erişimlerini engeller.**
+
+---
+
+## **5. Interpreter (Yorumlayıcı) Aşaması**
+- **Java Interpreter**, Bytecode’u **satır satır okur ve çalıştırır**.
+- Ancak, **sürekli yorumlama yavaş olabilir**, bu yüzden **JIT (Just-In-Time) Compiler** devreye girer.
+
+---
+
+## **6. Just-In-Time (JIT) Compiler Aşaması**
+- JIT Compiler, **tekrar eden kodları alır ve doğrudan makine koduna çevirir**.
+- **JVM’nin performansını artırır**, çünkü aynı kodun sürekli yorumlanmasını önler.
+
+---
+
+## **7. Runtime (Çalışma Zamanı)**
+- **Garbage Collector (GC):** Kullanılmayan nesneleri bellekten temizler.
+- **Thread Management:** Çoklu işlemler arasında zamanlamayı yönetir.
+- **Exception Handling:** Çalışma sırasında oluşan hataları yakalar.
+
+---
+
+## **8. Programın Çıkışı**
+Eğer her şey doğru giderse, programın çıktısı ekrana yazdırılır:
+
+```sh
+Hello, World!
+```
+
+---
+
+### **Genel Özet: Java Çalışma Döngüsü**
+1. **Source Code (`.java`) yazılır.**
+2. **Java Compiler (`javac`) kodu Bytecode (`.class`) haline getirir.**
+3. **ClassLoader**, `.class` dosyasını JVM’ye yükler.
+4. **Bytecode Verification** aşaması güvenlik kontrolü yapar.
+5. **Interpreter**, Bytecode’u **satır satır yorumlar** ve çalıştırır.
+6. **JIT Compiler**, sık kullanılan kodları **makine koduna** çevirir (performans artırır).
+7. **Garbage Collector**, kullanılmayan bellekleri temizler.
+8. **Program sonucu ekrana yazdırılır.**
+
+---
+
+### **Compiler vs. Interpreter: Hangisi Önce?**
+✅ **Önce Compiler (`javac`) çalışır → Sonra Interpreter (`JVM`) çalışır.**  
+🚀 **Sonuç:** Java hem **compiled** (derlenen) hem de **interpreted** (yorumlanan) bir dildir.
+
+
+# **Java Wrapper Type Nedir? – Detaylı Açıklama**
+
+## **1. Wrapper Type (Sarmalayıcı Tür) Nedir?**
+Java'da **Wrapper Type**, **primitive type (ilkel veri türleri)** ile çalışırken nesneye (Object) ihtiyaç duyduğumuz durumlarda kullanılan **sarmalayıcı (wrapper) sınıflardır**.
+
+### **Neden Wrapper Type Kullanılır?**
+Java’daki **primitive veri türleri (`int`, `double`, `boolean` vb.) nesne değildir.** Ancak, Java’da birçok yapı (Koleksiyonlar `List`, `Set`, `Map` vb.) **nesnelerle çalışır**. Bu nedenle **primitive türleri nesnelere dönüştürmek için** Wrapper Type kullanılır.
+
+**Örnek:**
+```java
+int x = 10;          // Primitive type
+Integer y = 10;      // Wrapper type (Nesne)
+```
+Burada:
+- `x` bir **primitive** int türüdür.
+- `y` ise **Integer sınıfından bir nesnedir**.
+
+---
+
+## **2. Primitive Type ve Wrapper Type Karşılaştırması**
+| **Primitive Type** | **Karşılık Gelen Wrapper Type** |
+|-------------------|--------------------------------|
+| `byte`           | `Byte`                         |
+| `short`          | `Short`                        |
+| `int`            | `Integer`                      |
+| `long`           | `Long`                         |
+| `float`          | `Float`                        |
+| `double`         | `Double`                       |
+| `char`           | `Character`                    |
+| `boolean`        | `Boolean`                      |
+
+💡 **Wrapper sınıflar, primitive türlerin büyük harfle başlayan ve nesne olarak kullanılabilen versiyonlarıdır.**
+
+---
+
+## **3. Wrapper Type Kullanımı**
+Wrapper sınıfları genellikle **koleksiyonlarla çalışma, null değer atama, veri türleri arasında dönüşüm yapma** gibi işlemler için kullanılır.
+
+### **Örnek Kullanım:**
+```java
+import java.util.ArrayList;
+import java.util.List;
+
+public class WrapperExample {
+    public static void main(String[] args) {
+        List<Integer> sayilar = new ArrayList<>();
+        sayilar.add(10);  // int → Integer (Autoboxing)
+        sayilar.add(20);
+        System.out.println(sayilar); // [10, 20]
+    }
+}
+```
+📌 **List<int> kullanılamaz!** Java Koleksiyonları nesnelerle çalıştığından, **List<Integer>** kullanmalıyız.
+
+---
+
+## **4. Autoboxing ve Unboxing**
+Java 5 ile gelen **Autoboxing ve Unboxing**, primitive türler ile Wrapper türler arasında **otomatik dönüşüm sağlar**.
+
+### **4.1. Autoboxing (Primitive → Wrapper)**
+Java, **primitive türleri otomatik olarak nesneye çevirir**.
+
+```java
+public class AutoboxingExample {
+    public static void main(String[] args) {
+        int primitiveValue = 100;
+        Integer wrapperValue = primitiveValue; // Autoboxing (int → Integer)
+
+        System.out.println(wrapperValue); // 100
+    }
+}
+```
+**Arka planda şuna dönüşür:**
+```java
+Integer wrapperValue = Integer.valueOf(primitiveValue);
+```
+
+---
+
+### **4.2. Unboxing (Wrapper → Primitive)**
+Wrapper türleri, **otomatik olarak primitive türlerine dönüştürülür**.
+
+```java
+public class UnboxingExample {
+    public static void main(String[] args) {
+        Integer wrapperValue = 200;
+        int primitiveValue = wrapperValue; // Unboxing (Integer → int)
+
+        System.out.println(primitiveValue); // 200
+    }
+}
+```
+**Arka planda şuna dönüşür:**
+```java
+int primitiveValue = wrapperValue.intValue();
+```
+
+---
+
+## **5. Wrapper Type Metotları**
+Wrapper sınıfları, **primitive türlerde olmayan bazı metotlara sahiptir**.
+
+### **5.1. `valueOf()` – Primitive’den Wrapper’a Dönüştürme**
+```java
+Integer intObj = Integer.valueOf(10);
+Double doubleObj = Double.valueOf(5.5);
+Boolean boolObj = Boolean.valueOf(true);
+
+System.out.println(intObj);   // 10
+System.out.println(doubleObj); // 5.5
+System.out.println(boolObj);  // true
+```
+
+---
+
+### **5.2. `xxxValue()` – Wrapper’dan Primitive’e Dönüştürme**
+```java
+Integer intObj = Integer.valueOf(100);
+int primitiveInt = intObj.intValue(); // Wrapper → Primitive
+
+Double doubleObj = Double.valueOf(55.5);
+double primitiveDouble = doubleObj.doubleValue(); // Wrapper → Primitive
+
+System.out.println(primitiveInt);  // 100
+System.out.println(primitiveDouble); // 55.5
+```
+
+---
+
+### **5.3. `parseXXX()` – String’den Primitive’e Dönüştürme**
+```java
+int sayi = Integer.parseInt("123");
+double ondalik = Double.parseDouble("12.34");
+boolean dogruMu = Boolean.parseBoolean("true");
+
+System.out.println(sayi);      // 123
+System.out.println(ondalik);   // 12.34
+System.out.println(dogruMu);   // true
+```
+📌 **Eğer String geçersizse `NumberFormatException` hatası alınır!**
+
+---
+
+### **5.4. `toString()` – Primitive’den String’e Dönüştürme**
+```java
+int sayi = 456;
+String str = Integer.toString(sayi);
+System.out.println(str); // "456"
+```
+
+Aynı işlem `String.valueOf()` ile de yapılabilir:
+```java
+String str2 = String.valueOf(sayi);
+System.out.println(str2); // "456"
+```
+
+---
+
+## **6. Wrapper Type Kullanım Senaryoları**
+| **Senaryo** | **Primitive Kullanımı** | **Wrapper Kullanımı** |
+|------------|--------------------|--------------------|
+| **Performans & Bellek** | ✅ Daha hızlı, az bellek kullanır. | ❌ Daha fazla bellek kullanır. |
+| **Koleksiyonlarla Kullanım** | ❌ Kullanılamaz. (`List<int>` hata verir) | ✅ Kullanılabilir. (`List<Integer>`) |
+| **Null Değer Atama** | ❌ Mümkün değil. | ✅ Mümkün (`Integer x = null;`) |
+| **Metot Kullanımı** | ❌ Metotları yoktur. | ✅ `valueOf()`, `parseInt()` gibi metotlar içerir. |
+| **Generics (Jenerik Türler)** | ❌ Kullanılamaz (`T extends int` olmaz). | ✅ Kullanılabilir (`T extends Number`). |
+
+---
+
+## **7. Ne Zaman Hangi Tür Kullanılmalı?**
+- **Performans ve bellek önemliyse → `primitive type` kullanın.**
+- **Koleksiyonlar ve nesne yönelimli programlama gerekiyorsa → `wrapper type` kullanın.**
+- **Null değeri gerekliyse → `wrapper type` kullanın.**
+- **Matematiksel hesaplamalar için → `primitive type` daha hızlıdır.**
+
+---
+
+## **8. Özet**
+| **Özellik** | **Primitive Type** | **Wrapper Type** |
+|------------|----------------|----------------|
+| **Bellek Kullanımı** | Az bellek tüketir. | Daha fazla bellek tüketir. |
+| **Hız** | Daha hızlıdır. | Daha yavaştır. |
+| **Null Değer** | ❌ Null olamaz. | ✅ Null olabilir. |
+| **Nesne mi?** | ❌ Hayır. | ✅ Evet. |
+| **Metotları Var mı?** | ❌ Hayır. | ✅ `parseInt()`, `valueOf()` gibi metotları vardır. |
+| **Koleksiyonlarla Kullanılabilir mi?** | ❌ Hayır. | ✅ Evet. |
+
+📌 **Özetle:** **Wrapper Type**, nesne yönelimli programlama ve koleksiyonlarla çalışırken kullanılır. Ancak, **performans ve bellek yönetimi açısından primitive type daha avantajlıdır**.
+
+💡 **Soru:** `List<int> list = new ArrayList<>();` neden hata verir?
+📌 **Cevap:** Java koleksiyonları nesne tutar. `int` bir nesne değildir, bu yüzden **`List<Integer>`** kullanmalıyız. 🚀
+
+
+## Java Math
 ```sh 
 
 ```
@@ -1365,194 +1995,977 @@ public class ScannerLoopExample {
 🚀 **Scanner, Java'da veri almak için en yaygın kullanılan sınıflardan biridir!**
 
 
-# **Java Wrapper Type Nedir? – Detaylı Açıklama**
 
-## **1. Wrapper Type (Sarmalayıcı Tür) Nedir?**
-Java'da **Wrapper Type**, **primitive type (ilkel veri türleri)** ile çalışırken nesneye (Object) ihtiyaç duyduğumuz durumlarda kullanılan **sarmalayıcı (wrapper) sınıflardır**.
+## WORA
+```sh 
 
-### **Neden Wrapper Type Kullanılır?**
-Java’daki **primitive veri türleri (`int`, `double`, `boolean` vb.) nesne değildir.** Ancak, Java’da birçok yapı (Koleksiyonlar `List`, `Set`, `Map` vb.) **nesnelerle çalışır**. Bu nedenle **primitive türleri nesnelere dönüştürmek için** Wrapper Type kullanılır.
-
-**Örnek:**
-```java
-int x = 10;          // Primitive type
-Integer y = 10;      // Wrapper type (Nesne)
 ```
-Burada:
-- `x` bir **primitive** int türüdür.
-- `y` ise **Integer sınıfından bir nesnedir**.
+---
+Java'nın ünlü sloganı **"Write Once, Run Anywhere"** şeklindedir. **"Everywhere" değil, "Anywhere" kullanılır.**
+
+### **Doğru Kullanım:**
+✅ **"Write Once, Run Anywhere" (WORA)**
+
+Bu slogan, Java programlarının **bir kez yazıldığında farklı platformlarda çalışabileceğini** ifade eder. **Anywhere** kelimesi, "herhangi bir yerde" anlamına gelir, yani **farklı işletim sistemleri ve donanımlarda çalışabilir** demektir.
+
+### **Yanlış Kullanım:**
+❌ **"Write Once, Run Everywhere"**
+
+**"Everywhere" kelimesi** "her yerde" anlamına gelir, ancak Java'nın çalışma prensibi tam olarak bu değildir. **JVM'nin yüklü olmadığı bir ortamda Java çalışmaz**, bu yüzden **"everywhere" yerine "anywhere" daha doğru bir ifadedir.**
+
+### **Özetle:**
+💡 **Mülakatta doğru cevap:**  
+✅ **"Write Once, Run Anywhere"** söylemelisiniz.  
+❌ **"Everywhere" derseniz teknik olarak yanlış olur.**
+
+
+## Conditional
+```sh 
+
+```
+---
+# **Java'da Conditional (Koşullu) İfadeler Nedir?**
+
+**Conditional (Koşullu) ifadeler**, bir programın belirli koşullara bağlı olarak farklı yollar izlemesini sağlar. **Mantıksal karşılaştırmalar ve şartlar** kullanarak belirli blokların çalıştırılmasını kontrol ederiz.
+
+Java'da kullanılan başlıca koşullu ifadeler şunlardır:
+
+1. `if` ve `if-else` ifadeleri
+2. `else if` (çoklu koşullar)
+3. `switch-case` yapısı
+4. **Ternary (`?:`) operatörü**
+5. **Short-Circuit (`&&` ve `||`) operatörleri**
 
 ---
 
-## **2. Primitive Type ve Wrapper Type Karşılaştırması**
-| **Primitive Type** | **Karşılık Gelen Wrapper Type** |
-|-------------------|--------------------------------|
-| `byte`           | `Byte`                         |
-| `short`          | `Short`                        |
-| `int`            | `Integer`                      |
-| `long`           | `Long`                         |
-| `float`          | `Float`                        |
-| `double`         | `Double`                       |
-| `char`           | `Character`                    |
-| `boolean`        | `Boolean`                      |
+## **1. `if` ve `if-else` Yapısı**
+### **1.1 `if` İfadesi**
+- **Koşul doğru (`true`) olduğunda kod çalıştırılır.**
+- **Yanlış (`false`) olursa hiçbir şey yapılmaz.**
 
-💡 **Wrapper sınıflar, primitive türlerin büyük harfle başlayan ve nesne olarak kullanılabilen versiyonlarıdır.**
-
----
-
-## **3. Wrapper Type Kullanımı**
-Wrapper sınıfları genellikle **koleksiyonlarla çalışma, null değer atama, veri türleri arasında dönüşüm yapma** gibi işlemler için kullanılır.
-
-### **Örnek Kullanım:**
+**Örnek 1: Basit `if` kullanımı**
 ```java
-import java.util.ArrayList;
-import java.util.List;
-
-public class WrapperExample {
+public class IfExample {
     public static void main(String[] args) {
-        List<Integer> sayilar = new ArrayList<>();
-        sayilar.add(10);  // int → Integer (Autoboxing)
-        sayilar.add(20);
-        System.out.println(sayilar); // [10, 20]
+        int sayi = 10;
+        
+        if (sayi > 5) { // Koşul doğru mu? Evet!
+            System.out.println("Sayı 5'ten büyüktür.");
+        }
     }
 }
 ```
-📌 **List<int> kullanılamaz!** Java Koleksiyonları nesnelerle çalıştığından, **List<Integer>** kullanmalıyız.
+**Çıktı:**
+```
+Sayı 5'ten büyüktür.
+```
+- `sayi > 5` olduğu için `if` bloğu çalıştı.
 
 ---
 
-## **4. Autoboxing ve Unboxing**
-Java 5 ile gelen **Autoboxing ve Unboxing**, primitive türler ile Wrapper türler arasında **otomatik dönüşüm sağlar**.
+### **1.2 `if-else` Yapısı**
+- **Koşul `true` ise `if` bloğu çalışır.**
+- **Koşul `false` olursa `else` bloğu çalışır.**
 
-### **4.1. Autoboxing (Primitive → Wrapper)**
-Java, **primitive türleri otomatik olarak nesneye çevirir**.
-
+**Örnek 2: `if-else` kullanımı**
 ```java
-public class AutoboxingExample {
+public class IfElseExample {
     public static void main(String[] args) {
-        int primitiveValue = 100;
-        Integer wrapperValue = primitiveValue; // Autoboxing (int → Integer)
-
-        System.out.println(wrapperValue); // 100
+        int sayi = 3;
+        
+        if (sayi > 5) {
+            System.out.println("Sayı 5'ten büyüktür.");
+        } else {
+            System.out.println("Sayı 5'ten küçük veya eşittir.");
+        }
     }
 }
 ```
-**Arka planda şuna dönüşür:**
-```java
-Integer wrapperValue = Integer.valueOf(primitiveValue);
+**Çıktı:**
 ```
+Sayı 5'ten küçük veya eşittir.
+```
+- `sayi = 3` olduğu için `if` bloğu çalışmadı, `else` bloğu çalıştı.
 
 ---
 
-### **4.2. Unboxing (Wrapper → Primitive)**
-Wrapper türleri, **otomatik olarak primitive türlerine dönüştürülür**.
+## **2. `else if` (Çoklu Koşullar)**
+- **Birden fazla koşulu test etmek için `else if` kullanılır.**
+- **İlk doğru (`true`) koşul çalıştırılır, diğerleri atlanır.**
 
+**Örnek 3: `else if` kullanımı**
 ```java
-public class UnboxingExample {
+public class ElseIfExample {
     public static void main(String[] args) {
-        Integer wrapperValue = 200;
-        int primitiveValue = wrapperValue; // Unboxing (Integer → int)
+        int not = 75;
 
-        System.out.println(primitiveValue); // 200
+        if (not >= 90) {
+            System.out.println("Harf Notu: A");
+        } else if (not >= 80) {
+            System.out.println("Harf Notu: B");
+        } else if (not >= 70) {
+            System.out.println("Harf Notu: C");
+        } else {
+            System.out.println("Harf Notu: F");
+        }
     }
 }
 ```
-**Arka planda şuna dönüşür:**
+**Çıktı:**
+```
+Harf Notu: C
+```
+- `not = 75`, yani `not >= 70` olduğu için **sadece "Harf Notu: C"** yazdırıldı.
+
+---
+
+## **3. `switch-case` Yapısı**
+- **Bir değişkenin belirli değerlere eşit olup olmadığını kontrol eder.**
+- **Koşula bağlı olarak ilgili `case` çalıştırılır.**
+- **Eğer hiçbir `case` eşleşmezse `default` bloğu çalışır.**
+- **Her case’den sonra `break` kullanılmazsa, aşağıdaki tüm case’ler çalışır.**
+
+### **Örnek 4: `switch-case` ile Gün İsmi**
 ```java
-int primitiveValue = wrapperValue.intValue();
+public class SwitchExample {
+    public static void main(String[] args) {
+        int gun = 3;
+
+        switch (gun) {
+            case 1:
+                System.out.println("Pazartesi");
+                break;
+            case 2:
+                System.out.println("Salı");
+                break;
+            case 3:
+                System.out.println("Çarşamba");
+                break;
+            case 4:
+                System.out.println("Perşembe");
+                break;
+            default:
+                System.out.println("Geçersiz gün numarası");
+        }
+    }
+}
+```
+**Çıktı:**
+```
+Çarşamba
+```
+- `gun = 3` olduğunda, `case 3` çalıştı.
+
+---
+
+## **4. Ternary (`?:`) Operatörü**
+- **Koşullu ifadeleri kısaltmak için kullanılır.**
+- **Tek satırda `if-else` mantığı sağlar.**
+- **Kullanım:**
+  ```java
+  (koşul) ? "true ise çalışır" : "false ise çalışır"
+  ```
+
+### **Örnek 5: Ternary Operatörü Kullanımı**
+```java
+public class TernaryExample {
+    public static void main(String[] args) {
+        int sayi = 10;
+        String sonuc = (sayi > 5) ? "Büyük" : "Küçük veya eşit";
+        System.out.println(sonuc);
+    }
+}
+```
+**Çıktı:**
+```
+Büyük
+```
+- `sayi > 5` olduğu için `"Büyük"` değeri atanır.
+
+---
+
+## **5. Short-Circuit (`&&` ve `||`) Operatörleri**
+**Kısa devre (Short-Circuiting)**, **gereksiz hesaplamaları önlemek için** kullanılan bir optimizasyondur.
+
+| Operatör | Açıklama |
+|----------|----------|
+| `&&` (AND) | Eğer ilk koşul `false` ise, ikinci koşula **bakmaz**. |
+| `||` (OR) | Eğer ilk koşul `true` ise, ikinci koşula **bakmaz**. |
+
+### **Örnek 6: `&&` ile Short-Circuit Kullanımı**
+```java
+public class ShortCircuitExample {
+    public static void main(String[] args) {
+        int a = 5;
+        int b = 10;
+
+        if (a > 10 && ++b > 15) { // `a > 10` zaten false, ikinci koşula bakmaz
+            System.out.println("Koşul sağlandı.");
+        }
+        System.out.println("b: " + b); // b artırılmadı!
+    }
+}
+```
+**Çıktı:**
+```
+b: 10
+```
+- `a > 10` **false olduğu için** `++b` çalışmaz, `b` aynı kalır.
+
+---
+
+### **Örnek 7: `||` ile Short-Circuit Kullanımı**
+```java
+public class ShortCircuitExample2 {
+    public static void main(String[] args) {
+        int x = 5;
+        int y = 10;
+
+        if (x < 10 || ++y > 15) { // `x < 10` true, ikinci koşula bakılmaz!
+            System.out.println("Koşul sağlandı.");
+        }
+        System.out.println("y: " + y); // y artırılmadı!
+    }
+}
+```
+**Çıktı:**
+```
+Koşul sağlandı.
+y: 10
+```
+- `x < 10` **true olduğu için** `++y` çalışmaz.
+
+---
+
+## **Sonuç**
+| Yapı | Kullanım Amacı |
+|------|---------------|
+| `if` | Belirli bir koşulu test etmek |
+| `if-else` | Koşul yanlışsa alternatif blok çalıştırmak |
+| `else if` | Birden fazla koşulu kontrol etmek |
+| `switch-case` | Belirli değerleri eşleştirerek çalıştırmak |
+| `?:` (Ternary) | Kısa `if-else` ifadeleri için |
+| `&&`, `||` | Kısa devre mantığı ile gereksiz işlemleri önlemek |
+
+Bu koşullu yapılar, Java programlarında **karar mekanizmaları** oluşturmak için temel taşlardır. 🚀
+
+
+## Loop
+```sh 
+
+```
+---
+
+# **Java'da Loop (Döngü) Nedir?**
+Döngüler (Loops), bir işlemi **tekrar tekrar belirli bir koşul sağlanana kadar çalıştırmak** için kullanılır. Java'da en yaygın kullanılan döngüler şunlardır:
+
+1. **for** döngüsü
+2. **while** döngüsü
+3. **do-while** döngüsü
+4. **for-each (enhanced for loop)**
+
+Bu döngülerle birlikte **`break` ve `continue`** gibi kontrol ifadeleri kullanılarak döngü akışı yönetilebilir.
+
+---
+
+## **1. `for` Döngüsü**
+`for` döngüsü, **tekrar sayısı bilinen işlemleri** yapmak için kullanılır. **Döngü çalıştırılmadan önce, koşul ve artış/azalış değerleri belirlenir.**
+
+**Yapısı:**
+```java
+for (başlangıç_değeri; koşul; artırma/azaltma) {
+    // Döngü bloğu
+}
+```
+
+### **Örnek 1: 1'den 5'e kadar yazdırma**
+```java
+public class ForLoopExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("i: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+```
+- `i = 1` olarak başlar.
+- `i <= 5` olduğu sürece çalışır.
+- Her iterasyonda `i++` ile `i` artırılır.
+
+---
+
+### **Örnek 2: Çift Sayıları Yazdırma**
+```java
+public class EvenNumbers {
+    public static void main(String[] args) {
+        for (int i = 2; i <= 10; i += 2) {
+            System.out.println("Çift sayı: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+Çift sayı: 2
+Çift sayı: 4
+Çift sayı: 6
+Çift sayı: 8
+Çift sayı: 10
+```
+- `i = 2` olarak başlar.
+- `i <= 10` olduğu sürece çalışır.
+- `i += 2` ile her turda `i` **2 artırılır**.
+
+---
+
+## **2. `while` Döngüsü**
+`while`, **koşul sağlandığı sürece** çalışan bir döngüdür. Kaç kere çalışacağı **önceden bilinmeyen** durumlar için kullanılır.
+
+**Yapısı:**
+```java
+while (koşul) {
+    // Döngü bloğu
+}
+```
+
+### **Örnek 3: `while` ile Sayı Yazdırma**
+```java
+public class WhileLoopExample {
+    public static void main(String[] args) {
+        int i = 1;
+        
+        while (i <= 5) {
+            System.out.println("i: " + i);
+            i++; // i artırılıyor, yoksa sonsuz döngü olur.
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1
+i: 2
+i: 3
+i: 4
+i: 5
+```
+- **İlk olarak `i = 1`**.
+- **Koşul `i <= 5` sağlandıkça çalışır**.
+- **Her iterasyonda `i++` artırılır**.
+
+---
+
+### **Örnek 4: `while` ile Kullanıcıdan Veri Alma**
+```java
+import java.util.Scanner;
+
+public class WhileUserInput {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int sayi;
+
+        System.out.println("5 girene kadar sayı girin:");
+
+        while (true) {  // Sonsuz döngü
+            sayi = scanner.nextInt();
+            if (sayi == 5) {
+                System.out.println("Döngü sonlandı.");
+                break; // 5 girildiğinde döngü kırılır.
+            }
+        }
+    }
+}
+```
+**Örnek Giriş/Çıkış:**
+```
+5 girene kadar sayı girin:
+1
+2
+3
+5
+Döngü sonlandı.
+```
+- **Kullanıcı 5 girene kadar veri girer**.
+- **5 girildiğinde `break;` ile döngü sona erer**.
+
+---
+
+## **3. `do-while` Döngüsü**
+`do-while`, **önce döngü çalıştırılır, sonra koşul kontrol edilir**. **Koşul yanlış olsa bile en az bir kere çalışır.**
+
+**Yapısı:**
+```java
+do {
+    // Döngü bloğu
+} while (koşul);
+```
+
+### **Örnek 5: `do-while` ile Kullanıcıdan Şifre Alma**
+```java
+import java.util.Scanner;
+
+public class DoWhileExample {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int sifre;
+
+        do {
+            System.out.print("Şifreyi girin (1234): ");
+            sifre = scanner.nextInt();
+        } while (sifre != 1234);
+
+        System.out.println("Giriş başarılı!");
+    }
+}
+```
+**Örnek Giriş/Çıkış:**
+```
+Şifreyi girin (1234): 1111
+Şifreyi girin (1234): 2222
+Şifreyi girin (1234): 1234
+Giriş başarılı!
+```
+- **Şifre doğru girilene kadar tekrar eder**.
+- **En az bir kez çalışır, çünkü `do` bloğu önce çalışır**.
+
+---
+
+## **4. `for-each` Döngüsü**
+`for-each`, **dizi ve koleksiyonları (Array, List, Set, vs.)** daha kolay gezmek için kullanılır.
+
+**Yapısı:**
+```java
+for (VeriTipi eleman : Dizi/Koleksiyon) {
+    // Döngü bloğu
+}
+```
+
+### **Örnek 6: `for-each` ile Dizi Elemanlarını Yazdırma**
+```java
+public class ForEachExample {
+    public static void main(String[] args) {
+        int[] sayilar = {10, 20, 30, 40, 50};
+
+        for (int sayi : sayilar) {
+            System.out.println("Sayı: " + sayi);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+Sayı: 10
+Sayı: 20
+Sayı: 30
+Sayı: 40
+Sayı: 50
+```
+- **`for-each`, `for` döngüsüne göre daha okunaklıdır**.
+- **Diziler, List'ler ve Set'ler üzerinde gezinmek için idealdir**.
+
+---
+
+## **5. Döngülerde `break` ve `continue` Kullanımı**
+### **`break`: Döngüyü tamamen sonlandırır.**
+### **`continue`: Mevcut iterasyonu atlar, sonraki tura geçer.**
+
+### **Örnek 7: `break` ile Döngüyü Sonlandırma**
+```java
+public class BreakExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                break; // 5 olduğunda döngü sona erer.
+            }
+            System.out.println("i: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1
+i: 2
+i: 3
+i: 4
+```
+
+### **Örnek 8: `continue` ile Atlatma**
+```java
+public class ContinueExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {
+                continue; // 3'ü atla
+            }
+            System.out.println("i: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1
+i: 2
+i: 4
+i: 5
 ```
 
 ---
 
-## **5. Wrapper Type Metotları**
-Wrapper sınıfları, **primitive türlerde olmayan bazı metotlara sahiptir**.
+## **Özet**
+| Döngü Türü | Kullanım Amacı |
+|------------|---------------|
+| `for` | Sabit sayıda tekrar eder. |
+| `while` | Koşul sağlandığı sürece tekrar eder. |
+| `do-while` | En az bir kez çalışır, sonra koşulu kontrol eder. |
+| `for-each` | Dizileri ve koleksiyonları gezmek için kullanılır. |
 
-### **5.1. `valueOf()` – Primitive’den Wrapper’a Dönüştürme**
+
+## break, return, continue
+```sh 
+
+```
+---
+### **Java'da `break`, `return` ve `continue` Nedir?**
+Bu üç anahtar kelime, akış kontrolüyle ilgilidir ve döngüler, metotlar ve koşullu ifadeler gibi yapılarda kullanılır. Her birinin nasıl çalıştığını detaylı örneklerle açıklayalım.
+
+---
+
+## **1. `break` Anahtar Kelimesi**
+`break`, genellikle **döngülerin kırılması (sonlandırılması)** için kullanılır. **`switch-case`** yapılarında da kullanılır.
+
+**Çalışma Mantığı:**
+- `break` çağrıldığı anda **ilgili döngüyü tamamen durdurur**.
+- İç içe döngülerde kullanıldığında, yalnızca **bulunduğu döngüyü kırar**.
+
+### **Örnek 1: Döngüyü Kırma**
 ```java
-Integer intObj = Integer.valueOf(10);
-Double doubleObj = Double.valueOf(5.5);
-Boolean boolObj = Boolean.valueOf(true);
+public class BreakExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            if (i == 5) {
+                System.out.println("Döngü 5'e ulaştı ve durduruldu.");
+                break; // Döngü burada sona erer.
+            }
+            System.out.println("i: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1
+i: 2
+i: 3
+i: 4
+Döngü 5'e ulaştı ve durduruldu.
+```
+- `i == 5` olduğunda `break` çalışır ve döngü tamamen sona erer.
 
-System.out.println(intObj);   // 10
-System.out.println(doubleObj); // 5.5
-System.out.println(boolObj);  // true
+### **Örnek 2: İç İçe Döngülerde `break` Kullanımı**
+```java
+public class NestedBreakExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                if (j == 2) {
+                    break; // Sadece iç döngüyü kırar
+                }
+                System.out.println("i: " + i + ", j: " + j);
+            }
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1, j: 1
+i: 2, j: 1
+i: 3, j: 1
+```
+- `j == 2` olduğunda iç döngü sona erer, ancak dış döngü devam eder.
+
+---
+
+## **2. `return` Anahtar Kelimesi**
+`return` ifadesi, bir metottan değer döndürmek veya metodu tamamen sonlandırmak için kullanılır.
+
+**Çalışma Mantığı:**
+- Eğer bir metodun dönüş tipi **`void`** ise, `return;` metodu **erken sonlandırır**.
+- Eğer metodun dönüş tipi bir değer içeriyorsa (**int, String, boolean, vs.**), `return` ile bir değer döndürmek zorunludur.
+
+### **Örnek 1: `return` ile Metodu Sonlandırma**
+```java
+public class ReturnExample {
+    public static void main(String[] args) {
+        System.out.println("Metot çağrılıyor...");
+        testMetot();
+        System.out.println("Bu satır çalışmaz çünkü metot return ile durduruldu.");
+    }
+
+    public static void testMetot() {
+        System.out.println("Metot başladı.");
+        return;  // Metot burada sona erer.
+        // System.out.println("Bu satır asla çalışmaz."); // Hata verir
+    }
+}
+```
+**Çıktı:**
+```
+Metot çağrılıyor...
+Metot başladı.
+```
+- `return;` çağrıldığı anda metot sona erer.
+
+### **Örnek 2: `return` ile Değer Döndürme**
+```java
+public class SumExample {
+    public static void main(String[] args) {
+        int result = toplama(5, 10);
+        System.out.println("Toplam: " + result);
+    }
+
+    public static int toplama(int a, int b) {
+        return a + b; // a + b değerini döndürür.
+    }
+}
+```
+**Çıktı:**
+```
+Toplam: 15
+```
+- `return a + b;` ile metot, toplama işleminin sonucunu döndürür.
+
+---
+
+## **3. `continue` Anahtar Kelimesi**
+`continue`, döngü içindeki mevcut yinelemeyi atlayarak bir sonraki tura geçmek için kullanılır. **Döngüyü kırmaz**, yalnızca **belirtilen koşulda o adımı atlar**.
+
+**Çalışma Mantığı:**
+- `continue` çağrıldığında, döngünün geri kalan kodları çalıştırılmaz ve **bir sonraki iterasyona geçilir**.
+- Genellikle **belirli bir durumu atlamak** için kullanılır.
+
+### **Örnek 1: Tek Sayıları Atlamak**
+```java
+public class ContinueExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 10; i++) {
+            if (i % 2 != 0) { // Tek sayılar için
+                continue; // Döngüde kalan işlemleri atla ve bir sonraki adıma geç.
+            }
+            System.out.println("Çift sayı: " + i);
+        }
+    }
+}
+```
+**Çıktı:**
+```
+Çift sayı: 2
+Çift sayı: 4
+Çift sayı: 6
+Çift sayı: 8
+Çift sayı: 10
+```
+- `i` tek sayı olduğunda `continue` çalışır ve o iterasyonun geri kalan kısmı atlanır.
+
+### **Örnek 2: İç İçe Döngülerde `continue` Kullanımı**
+```java
+public class NestedContinueExample {
+    public static void main(String[] args) {
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 3; j++) {
+                if (j == 2) {
+                    continue; // `j == 2` olduğunda iç döngünün bu iterasyonu atlanır.
+                }
+                System.out.println("i: " + i + ", j: " + j);
+            }
+        }
+    }
+}
+```
+**Çıktı:**
+```
+i: 1, j: 1
+i: 1, j: 3
+i: 2, j: 1
+i: 2, j: 3
+i: 3, j: 1
+i: 3, j: 3
+```
+- `j == 2` olduğunda `continue` çalışır ve o adımdaki işlemleri atlar.
+
+---
+
+## **Sonuç Karşılaştırması**
+| Anahtar Kelime | Kullanım Alanı | Etkisi |
+|---------------|---------------|--------|
+| `break` | Döngüleri ve `switch` bloklarını kırmak için | Döngü tamamen sona erer. |
+| `return` | Metotlardan çıkış yapmak için | Metodu bitirir ve değer döndürür. |
+| `continue` | Döngü içinde belirli bir iterasyonu atlamak için | O iterasyonu atlar, döngü devam eder. |
+
+
+## String
+```sh 
+
+```
+---
+# **Java'da String Nedir? (Detaylı Açıklama)**
+
+### **📌 String Nedir?**
+Java'da **`String`** bir **karakter dizisi** (text verisi) saklamak için kullanılan **sınıf (class)** türüdür. **Java’da `String`, ilkel (primitive) bir veri tipi değildir**, aksine **`java.lang.String` sınıfına** ait bir **nesnedir**.
+
+- **Immutable (değiştirilemez)** bir yapıya sahiptir.
+- **Heap** üzerinde oluşturulur ve **String Pool (Havuz)** kullanılarak yönetilir.
+- `+` operatörü ile birleştirme (concatenation) yapılabilir.
+- **`equals()` ve `==` farkı** gibi önemli detayları vardır.
+
+---
+
+## **📌 1. String Tanımlama Yöntemleri**
+Java’da `String` oluşturmanın **iki farklı yolu** vardır:
+
+### **1️⃣ String Havuzu (`String Pool`) ile Tanımlama**
+```java
+String str1 = "Merhaba"; // String literal ile oluşturuldu
+String str2 = "Merhaba";
+```
+- `"Merhaba"` **String Pool’a eklenir**.
+- **Aynı String değerini tekrar oluşturduğumuzda, hafızada yeni bir nesne oluşturulmaz**, aynı referansa atanır.
+- **Bellek kullanımını optimize eder**.
+
+---
+
+### **2️⃣ `new` Operatörü ile Tanımlama**
+```java
+String str3 = new String("Merhaba");
+String str4 = new String("Merhaba");
+```
+- **Her seferinde yeni bir nesne oluşturur** (Heap içinde).
+- **Fazladan bellek harcar**, çünkü `new` ile oluşturulan `String` nesneleri `String Pool` kullanmaz.
+
+📌 **Karşılaştırma:**
+```java
+System.out.println(str1 == str2); // true (Aynı referans)
+System.out.println(str3 == str4); // false (Farklı nesneler)
+System.out.println(str1.equals(str3)); // true (İçerik karşılaştırması)
 ```
 
 ---
 
-### **5.2. `xxxValue()` – Wrapper’dan Primitive’e Dönüştürme**
+## **📌 2. String Metotları**
+Java'nın `String` sınıfı **zengin bir metot koleksiyonuna sahiptir**. Bunları detaylıca inceleyelim.
+
+### **✅ 2.1 Uzunluk Öğrenme - `length()`**
 ```java
-Integer intObj = Integer.valueOf(100);
-int primitiveInt = intObj.intValue(); // Wrapper → Primitive
-
-Double doubleObj = Double.valueOf(55.5);
-double primitiveDouble = doubleObj.doubleValue(); // Wrapper → Primitive
-
-System.out.println(primitiveInt);  // 100
-System.out.println(primitiveDouble); // 55.5
+String text = "Java Programlama";
+System.out.println(text.length()); // 17
 ```
 
 ---
 
-### **5.3. `parseXXX()` – String’den Primitive’e Dönüştürme**
+### **✅ 2.2 Karakter Erişimi - `charAt(index)`**
 ```java
-int sayi = Integer.parseInt("123");
-double ondalik = Double.parseDouble("12.34");
-boolean dogruMu = Boolean.parseBoolean("true");
-
-System.out.println(sayi);      // 123
-System.out.println(ondalik);   // 12.34
-System.out.println(dogruMu);   // true
-```
-📌 **Eğer String geçersizse `NumberFormatException` hatası alınır!**
-
----
-
-### **5.4. `toString()` – Primitive’den String’e Dönüştürme**
-```java
-int sayi = 456;
-String str = Integer.toString(sayi);
-System.out.println(str); // "456"
-```
-
-Aynı işlem `String.valueOf()` ile de yapılabilir:
-```java
-String str2 = String.valueOf(sayi);
-System.out.println(str2); // "456"
+String text = "Java";
+System.out.println(text.charAt(0)); // J
+System.out.println(text.charAt(2)); // v
 ```
 
 ---
 
-## **6. Wrapper Type Kullanım Senaryoları**
-| **Senaryo** | **Primitive Kullanımı** | **Wrapper Kullanımı** |
-|------------|--------------------|--------------------|
-| **Performans & Bellek** | ✅ Daha hızlı, az bellek kullanır. | ❌ Daha fazla bellek kullanır. |
-| **Koleksiyonlarla Kullanım** | ❌ Kullanılamaz. (`List<int>` hata verir) | ✅ Kullanılabilir. (`List<Integer>`) |
-| **Null Değer Atama** | ❌ Mümkün değil. | ✅ Mümkün (`Integer x = null;`) |
-| **Metot Kullanımı** | ❌ Metotları yoktur. | ✅ `valueOf()`, `parseInt()` gibi metotlar içerir. |
-| **Generics (Jenerik Türler)** | ❌ Kullanılamaz (`T extends int` olmaz). | ✅ Kullanılabilir (`T extends Number`). |
+### **✅ 2.3 Parça Alma (Substring) - `substring()`**
+```java
+String text = "Merhaba Dünya";
+System.out.println(text.substring(8)); // "Dünya"
+System.out.println(text.substring(0, 7)); // "Merhaba"
+```
 
 ---
 
-## **7. Ne Zaman Hangi Tür Kullanılmalı?**
-- **Performans ve bellek önemliyse → `primitive type` kullanın.**
-- **Koleksiyonlar ve nesne yönelimli programlama gerekiyorsa → `wrapper type` kullanın.**
-- **Null değeri gerekliyse → `wrapper type` kullanın.**
-- **Matematiksel hesaplamalar için → `primitive type` daha hızlıdır.**
+### **✅ 2.4 Küçük ve Büyük Harfe Çevirme - `toUpperCase()` & `toLowerCase()`**
+```java
+String text = "Java";
+System.out.println(text.toUpperCase()); // "JAVA"
+System.out.println(text.toLowerCase()); // "java"
+```
 
 ---
 
-## **8. Özet**
-| **Özellik** | **Primitive Type** | **Wrapper Type** |
-|------------|----------------|----------------|
-| **Bellek Kullanımı** | Az bellek tüketir. | Daha fazla bellek tüketir. |
-| **Hız** | Daha hızlıdır. | Daha yavaştır. |
-| **Null Değer** | ❌ Null olamaz. | ✅ Null olabilir. |
-| **Nesne mi?** | ❌ Hayır. | ✅ Evet. |
-| **Metotları Var mı?** | ❌ Hayır. | ✅ `parseInt()`, `valueOf()` gibi metotları vardır. |
-| **Koleksiyonlarla Kullanılabilir mi?** | ❌ Hayır. | ✅ Evet. |
+### **✅ 2.5 String Karşılaştırma - `equals()` ve `equalsIgnoreCase()`**
+```java
+String a = "Java";
+String b = "java";
 
-📌 **Özetle:** **Wrapper Type**, nesne yönelimli programlama ve koleksiyonlarla çalışırken kullanılır. Ancak, **performans ve bellek yönetimi açısından primitive type daha avantajlıdır**.
+System.out.println(a.equals(b)); // false
+System.out.println(a.equalsIgnoreCase(b)); // true
+```
+📌 **Neden `==` kullanılmamalı?**
+- `==`, **referansları** karşılaştırır.
+- `equals()` ise **içeriği** karşılaştırır.
 
-💡 **Soru:** `List<int> list = new ArrayList<>();` neden hata verir?
-📌 **Cevap:** Java koleksiyonları nesne tutar. `int` bir nesne değildir, bu yüzden **`List<Integer>`** kullanmalıyız. 🚀
+---
+
+### **✅ 2.6 String İçerik Kontrolleri**
+#### **`contains()` → İçinde geçiyor mu?**
+```java
+String text = "Java öğrenmek çok eğlenceli!";
+System.out.println(text.contains("Java")); // true
+System.out.println(text.contains("Python")); // false
+```
+
+#### **`startsWith()` & `endsWith()` → Başlangıç ve Bitiş Kontrolü**
+```java
+String text = "Merhaba Dünya";
+System.out.println(text.startsWith("Merhaba")); // true
+System.out.println(text.endsWith("Dünya")); // true
+```
+
+---
+
+### **✅ 2.7 String Parçalama - `split()`**
+```java
+String metin = "Java,Python,C++";
+String[] diller = metin.split(",");
+
+for (String dil : diller) {
+    System.out.println(dil);
+}
+```
+**Çıktı:**
+```
+Java
+Python
+C++
+```
+
+---
+
+### **✅ 2.8 `trim()` - Boşlukları Kaldırma**
+```java
+String text = "   Java   ";
+System.out.println(text.trim()); // "Java"
+```
+
+---
+
+### **✅ 2.9 Değiştirme - `replace()` ve `replaceAll()`**
+```java
+String text = "Java kolaydır";
+System.out.println(text.replace("kolay", "harika")); // "Java harikadır"
+```
+
+---
+
+## **📌 3. String Birleştirme (Concatenation)**
+### **1️⃣ `+` Operatörü ile**
+```java
+String s1 = "Merhaba";
+String s2 = " Dünya";
+String sonuc = s1 + s2;
+System.out.println(sonuc); // "Merhaba Dünya"
+```
+
+### **2️⃣ `concat()` Metodu ile**
+```java
+String s1 = "Java";
+String s2 = " Programlama";
+System.out.println(s1.concat(s2)); // "Java Programlama"
+```
+
+---
+
+## **📌 4. `StringBuilder` ve `StringBuffer`**
+📌 **`String` nesneleri değiştirilemez (immutable) olduğu için, çok fazla işlem yapıldığında `StringBuilder` veya `StringBuffer` kullanmak daha verimlidir.**
+
+### **1️⃣ `StringBuilder` (Daha Hızlı)**
+```java
+StringBuilder sb = new StringBuilder("Java");
+sb.append(" Programlama");
+System.out.println(sb); // "Java Programlama"
+```
+
+### **2️⃣ `StringBuffer` (Thread-Safe)**
+```java
+StringBuffer sb = new StringBuffer("Java");
+sb.append(" Öğreniyorum");
+System.out.println(sb); // "Java Öğreniyorum"
+```
+
+| **Özellik**  | **String** | **StringBuilder** | **StringBuffer** |
+|-------------|------------|----------------|----------------|
+| **Değiştirilebilir mi?** | ❌ Hayır | ✅ Evet | ✅ Evet |
+| **Hızlı mı?** | 🚀 Yavaş | ⚡ Hızlı | 🔒 Daha yavaş (Thread-safe) |
+| **Thread-Safe mi?** | ❌ Hayır | ❌ Hayır | ✅ Evet |
+
+---
+
+## **📌 5. String ile `==` ve `equals()` Farkı**
+```java
+String str1 = "Java";
+String str2 = new String("Java");
+
+System.out.println(str1 == str2); // false (Farklı referanslar)
+System.out.println(str1.equals(str2)); // true (Aynı içerik)
+```
+📌 **Özetle:**
+- **`==`**, hafızadaki referansları karşılaştırır.
+- **`equals()`**, içeriği karşılaştırır.
+
+---
+
+## **📌 6. String Pool ve Bellek Yönetimi**
+**String Pool**, `String` nesnelerinin tekrar kullanılmasını sağlayarak **bellek optimizasyonu** yapar.
+
+```java
+String str1 = "Hello";
+String str2 = "Hello";
+System.out.println(str1 == str2); // true (Aynı referans)
+```
+Ama:
+```java
+String str3 = new String("Hello");
+System.out.println(str1 == str3); // false (Yeni nesne)
+```
+
+---
+
+## **📌 Sonuç**
+- **`String` immutable’dır, değiştirilemez.**
+- **Karşılaştırma için `equals()` kullanılır.**
+- **Çok fazla işlem yapılacaksa `StringBuilder` tercih edilmelidir.**
+- **Bellek yönetimi için `String Pool` mekanizması vardır.**
+
+🚀 **String’leri etkili kullanmak, Java programlarının performansını artırabilir!** 🚀
+
+
+
+## Method
+```sh 
+
+```
+---
+
+
+## Dizi(Array)
+```sh 
+
+```
+---
+
+
+## Devam
+```sh 
+
+```
+---
+
+
+
