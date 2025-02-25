@@ -1,7 +1,6 @@
-package com.gunesakkaya.project_step1_file;
+package com.gunesakkaya.project_step3_file;
 
 import com.gunesakkaya.utils.SpecialColor;
-
 
 import java.io.*;
 import java.util.ArrayList;
