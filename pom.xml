@@ -8,7 +8,6 @@
     <artifactId>ibb_ecodation_javacore</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-
     <url/>
     <licenses>
         <license/>
@@ -56,12 +55,12 @@
             <version>8.0.28</version>
         </dependency>
 
-    <!--lombok-->
+        <!--lombok-->
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>1.18.24</version>
+            <version>1.18.36</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
