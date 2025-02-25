@@ -1,6 +1,5 @@
 package com.gunesakkaya._3_week;
 
-
 import com.gunesakkaya.utils.SpecialColor;
 
 import java.io.IOException;
@@ -248,4 +247,3 @@ public class Week3_01_Examples_1 {
         scanner.close();
     }
 }//end
-

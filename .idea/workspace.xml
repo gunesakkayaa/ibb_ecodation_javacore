@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="JAVA | Updates">
-      <change afterPath="$PROJECT_DIR$/factorial_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/project_step1_file/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/project_step1_file/StudentDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_3_week/Week3_01_Examples_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_3_week/Week3_01_Examples_1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +102,33 @@
       <recent name="com.gunesakkaya._1_part_javatypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Week3_06_Class_LOMBOK">
+  <component name="RunManager" selected="Application.Week3_01_Examples_1">
+    <configuration name="Week3_01_Examples_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_01_Examples_1" />
+      <module name="ibb_ecodation_javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gunesakkaya._3_week.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Week3_03_Access_2_DefaultAccessModifier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_03_Access_2_DefaultAccessModifier" />
+      <module name="ibb_ecodation_javacore" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gunesakkaya._3_week.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Week3_04_Class_POJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_04_Class_POJO" />
       <module name="ibb_ecodation_javacore" />
@@ -143,39 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_11_1_Return_Continue_Break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._2_Week._11_1_Return_Continue_Break" />
-      <module name="ibb_ecodation_javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._2_Week.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_16_1_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._2_Week._16_1_Array" />
-      <module name="ibb_ecodation_javacore" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._2_Week.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Week3_06_Class_LOMBOK" />
+        <item itemvalue="Application.Week3_01_Examples_1" />
+        <item itemvalue="Application.Week3_03_Access_2_DefaultAccessModifier" />
         <item itemvalue="Application.Week3_04_Class_POJO" />
         <item itemvalue="Application.Week3_05_Class_BEAN" />
-        <item itemvalue="Application._16_1_Array" />
-        <item itemvalue="Application._11_1_Return_Continue_Break" />
+        <item itemvalue="Application.Week3_06_Class_LOMBOK" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +208,7 @@
       <workItem from="1739900494278" duration="2442000" />
       <workItem from="1739975041574" duration="35000" />
       <workItem from="1740064543265" duration="3871000" />
-      <workItem from="1740496734246" duration="1290000" />
+      <workItem from="1740496734246" duration="1598000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -419,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740497250544</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="JAVA | Updates">
+      <option name="closed" value="true" />
+      <created>1740498073494</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1740498073494</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
