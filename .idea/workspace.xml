@@ -4,23 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="Revize">
-      <change afterPath="$PROJECT_DIR$/example.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_04_2_JavaWrapperTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_04_3_HeapMemory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_04_4_Cast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_08_2_Scanner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/part1_test.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/week1_examples_1.java" afterDir="false" />
+    <list default="true" id="332806a6-8269-46e5-8aad-ec6d483dfbc0" name="Changes" comment="JAVA | Updates">
+      <change afterPath="$PROJECT_DIR$/factorial_log.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_01_JavaPsvm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_01_JavaPsvm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_02_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_02_Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_03_JavaPrimitiveTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_03_JavaPrimitiveTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_04_JavaWrapperTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_04_1_JavaWrapperTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_05_operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_05_operators.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_06_Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_06_Math.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_07_EscapeCharacter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_07_EscapeCharacter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_part_javatypes/_08_Scanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/_1_week/_08_1_Scanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/project_step1_file/StudentDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gunesakkaya/project_step1_file/StudentDto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +50,13 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Week1_examples_1.executor": "Run",
+    "Application.Week1_examples_2.executor": "Run",
+    "Application.Week2_Examples_1.executor": "Run",
+    "Application.Week2_Examples_2.executor": "Run",
+    "Application.Week3_04_Class_POJO.executor": "Run",
+    "Application.Week3_05_Class_BEAN.executor": "Run",
+    "Application.Week3_06_Class_LOMBOK.executor": "Run",
     "Application._01_JavaTypes.executor": "Run",
     "Application._02_JavaDataTypes.executor": "Run",
     "Application._02_Variables.executor": "Run",
@@ -70,6 +64,16 @@
     "Application._04_operators.executor": "Run",
     "Application._06_Math.executor": "Run",
     "Application._07_EscapeCharacter.executor": "Run",
+    "Application._09_02_Conditional.executor": "Run",
+    "Application._09_2_Conditional.executor": "Run",
+    "Application._09_3_Conditional_Ternary.executor": "Run",
+    "Application._09_4_Conditional_Multiple.executor": "Run",
+    "Application._09_5_Conditional_SwitchCase.executor": "Debug",
+    "Application._10_1_Loop_For.executor": "Run",
+    "Application._10_2_Loop_While.executor": "Run",
+    "Application._10_3_Loop_DoWhile.executor": "Run",
+    "Application._11_1_Return_Continue_Break.executor": "Run",
+    "Application._16_1_Array.executor": "Run",
     "Application.week1_examples_1.executor": "Run",
     "Maven.ibb_ecodation_javacore [clean].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -93,17 +97,19 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gunesakkaya._3_week" />
+      <recent name="com.gunesakkaya._2_Week" />
       <recent name="com.gunesakkaya._1_week" />
       <recent name="com.gunesakkaya._1_part_javatypes" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.week1_examples_1">
-    <configuration name="_04_1_JavaWrapperTypes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_week._04_1_JavaWrapperTypes" />
+  <component name="RunManager" selected="Application.Week3_06_Class_LOMBOK">
+    <configuration name="Week3_04_Class_POJO" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_04_Class_POJO" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_week.*" />
+          <option name="PATTERN" value="com.gunesakkaya._3_week.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_05_operators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_week._05_operators" />
+    <configuration name="Week3_05_Class_BEAN" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_05_Class_BEAN" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_week.*" />
+          <option name="PATTERN" value="com.gunesakkaya._3_week.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_06_Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_week._06_Math" />
+    <configuration name="Week3_06_Class_LOMBOK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._3_week.Week3_06_Class_LOMBOK" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_week.*" />
+          <option name="PATTERN" value="com.gunesakkaya._3_week.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_07_EscapeCharacter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_week._07_EscapeCharacter" />
+    <configuration name="_11_1_Return_Continue_Break" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._2_Week._11_1_Return_Continue_Break" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_week.*" />
+          <option name="PATTERN" value="com.gunesakkaya._2_Week.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="week1_examples_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._1_week.week1_examples_1" />
+    <configuration name="_16_1_Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gunesakkaya._2_Week._16_1_Array" />
       <module name="ibb_ecodation_javacore" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gunesakkaya._1_week.*" />
+          <option name="PATTERN" value="com.gunesakkaya._2_Week.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -165,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.week1_examples_1" />
-        <item itemvalue="Application._04_1_JavaWrapperTypes" />
-        <item itemvalue="Application._07_EscapeCharacter" />
-        <item itemvalue="Application._06_Math" />
-        <item itemvalue="Application._05_operators" />
+        <item itemvalue="Application.Week3_06_Class_LOMBOK" />
+        <item itemvalue="Application.Week3_04_Class_POJO" />
+        <item itemvalue="Application.Week3_05_Class_BEAN" />
+        <item itemvalue="Application._16_1_Array" />
+        <item itemvalue="Application._11_1_Return_Continue_Break" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +202,14 @@
       <workItem from="1738859055465" duration="6003000" />
       <workItem from="1738947751311" duration="1314000" />
       <workItem from="1738960357336" duration="44000" />
-      <workItem from="1739017578087" duration="7173000" />
+      <workItem from="1739017578087" duration="9868000" />
+      <workItem from="1739140944675" duration="592000" />
+      <workItem from="1739206903675" duration="17000" />
+      <workItem from="1739286866283" duration="8432000" />
+      <workItem from="1739900494278" duration="2442000" />
+      <workItem from="1739975041574" duration="35000" />
+      <workItem from="1740064543265" duration="3871000" />
+      <workItem from="1740496734246" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="java core init">
       <option name="closed" value="true" />
@@ -334,7 +347,79 @@
       <option name="project" value="LOCAL" />
       <updated>1739018187680</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="examples">
+      <option name="closed" value="true" />
+      <created>1739029148903</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739029148903</updated>
+    </task>
+    <task id="LOCAL-00019" summary="examples">
+      <option name="closed" value="true" />
+      <created>1739046068868</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739046068868</updated>
+    </task>
+    <task id="LOCAL-00020" summary="deneme">
+      <option name="closed" value="true" />
+      <created>1739046218721</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739046218722</updated>
+    </task>
+    <task id="LOCAL-00021" summary="deneme">
+      <option name="closed" value="true" />
+      <created>1739046231870</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739046231870</updated>
+    </task>
+    <task id="LOCAL-00022" summary="JAVA | Conditional">
+      <option name="closed" value="true" />
+      <created>1739288791015</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1739288791015</updated>
+    </task>
+    <task id="LOCAL-00023" summary="JAVA | Loop">
+      <option name="closed" value="true" />
+      <created>1739291206312</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1739291206312</updated>
+    </task>
+    <task id="LOCAL-00024" summary="JAVA | Updates">
+      <option name="closed" value="true" />
+      <created>1739901059163</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1739901059163</updated>
+    </task>
+    <task id="LOCAL-00025" summary="JAVA | Updates">
+      <option name="closed" value="true" />
+      <created>1740497185550</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1740497185550</updated>
+    </task>
+    <task id="LOCAL-00026" summary="JAVA | Updates">
+      <option name="closed" value="true" />
+      <created>1740497250544</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1740497250544</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +450,12 @@
     <MESSAGE value="full update" />
     <MESSAGE value="Escape Character" />
     <MESSAGE value="Revize" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revize" />
+    <MESSAGE value="examples" />
+    <MESSAGE value="deneme" />
+    <MESSAGE value="JAVA | Conditional" />
+    <MESSAGE value="JAVA | Loop" />
+    <MESSAGE value="JAVA | Updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="JAVA | Updates" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -374,6 +464,11 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/gunesakkaya/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/gunesakkaya/_2_Week/_12_2_StringFormat.java</url>
+          <line>84</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
