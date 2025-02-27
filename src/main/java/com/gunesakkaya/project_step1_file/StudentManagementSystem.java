@@ -2,7 +2,6 @@ package com.gunesakkaya.project_step1_file;
 
 import com.gunesakkaya.utils.SpecialColor;
 
-
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Date;
